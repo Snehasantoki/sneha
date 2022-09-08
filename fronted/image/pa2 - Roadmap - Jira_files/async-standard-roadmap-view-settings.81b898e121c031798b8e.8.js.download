@@ -1,0 +1,190 @@
+try{window.performance.mark("async-standard-roadmap-view-settings.js:eval-start")}catch(e){}(window.webpackJsonp=window.webpackJsonp||[]).push([["async-standard-roadmap-view-settings"],{"7L90":function(e,a,o){"use strict";let t;o.d(a,"a",(function(){return t})),function(e){e.HELP_ARTICLE="HELP_ARTICLE",e.WHATS_NEW="WHATS_NEW"}(t||(t={}))},EDfC:function(e,a,o){"use strict";o.d(a,"b",(function(){return c}));var t=o("pVnL"),r=o.n(t),n=o("QILm"),d=o.n(n),i=o("q1tI"),s=o.n(i);const l=["articleId","type","children","fallbackComponent","onClick"],c=()=>{const{openRightSidebar:e}=Object(o("z3Aa").b)(),[,{setNavigationData:a}]=Object(o("UxYk").b)();return(()=>Object(o("0zaF").a)("iph.global-nav.help-panel-open-onclick",!1))()&&(()=>Object(o("0zaF").a)("iph.enabled",!1))()&&!Object(o("xJlU").e)()?(t,r="HELP_ARTICLE")=>{e(o("ZMdd").a,o("ZMdd").c,!1,!0),a({articleId:{id:t,type:o("7L90").a[r]}})}:void 0};a.a=e=>{
+let{articleId:a="",type:t="HELP_ARTICLE",children:n,fallbackComponent:i=null,onClick:b}=e,p=d()(e,l);const g=c();return g?s.a.createElement(o("340+").a,r()({},p,{onClick:(e,r)=>{null==b||b(e,r),null==g||g(a,o("7L90").a[t])}}),n):s.a.createElement(s.a.Fragment,null,i)}},HMrK:function(e,a,o){"use strict";var t=o("q1tI"),r=o("qKvR");const n=Object(r.css)(o("U4RV").a),d=Object(t.memo)((function({size:e="medium",label:a,primaryColor:t="currentColor",secondaryColor:d,testId:i,children:s}){const{mode:l}=Object(o("1chJ").b)();return Object(r.jsx)("svg",{viewBox:"0 0 24 24",style:{color:t,fill:d||Object(o("RUTV").a)(l)},css:[n,o("U4RV").c[e]],"data-testid":i,"aria-label":a,role:a?"img":"presentation"},s)}));a.a=d},QBHd:function(e,a,o){"use strict";o.r(a);var t=o("/MKj"),r=o("q1tI"),n=o.n(r),d=Object(o("uKP8").a)({title:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.title",defaultMessage:"Refine your view",
+description:"Sidebar panel title. The panel enables a user to change how their roadmap is displayed."},close:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.close",defaultMessage:"Close",description:"ARIA button label. Indicates to a user that the cross icon button closes the panel."},epicTitle:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.epic-title",defaultMessage:"{epicName} display options",description:"Sidebar panel sub header. Appears on the Epic setting dropdown, that allows user to configure done epics visibility."},displayRangeTitle:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.display-range-title",defaultMessage:"Issue display range",description:"Sidebar panel sub header. Appears on the Issue display range setting radio button and dropdown, that allows user to configure done level one issues visibility."},featuresTitle:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.features-title",
+defaultMessage:"More details",description:"Sidebar panel sub header. Appears on the features toggles, that allows user to update feature visibility."},help:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.help",defaultMessage:"Any {epicName} marked as done a year ago won't show on the roadmap. Neither will any {epicName} marked as done with a due date from a year ago. ",description:"Help text. Appears on the Epic settings dropdown, that allows user to configure done epics visibility."},displayRangeHelp:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.display-range-help",defaultMessage:"Completed {levelOneName} issues with due dates outside of this range won't show on your timeline.",description:"Help text. Appears on the display range settings for showing completed level one issues, that allows user to configure the visibility of done level one issues."},hideCompleteHelp:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.hide-complete-help",
+defaultMessage:"All completed {levelOneName} issues will be hidden on the roadmap, along with their child issues.",description:"Help text. Appears on the display range settings for hiding completed level one issues, that allows user to configure the visibility of done level one issues."},viewSettingsLearnMore:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.view-settings-learn-more",defaultMessage:"Learn more about roadmap view settings",description:"Link label. Appears on the View setings panel, that allows user to configure their user settings."},learnMore:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.learn-more",defaultMessage:"Learn more",description:"Link label. Appears on the Epic settings dropdown, that allows user to configure done epics visibility."},dependencies:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.dependencies",defaultMessage:"Dependencies",
+description:"Checkbox label. Appears on the checkbox, that allows user to configure dependencies information visibility."},dependenciesDescription:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.dependencies-description",defaultMessage:"Visualize how work streams relate to better understand your risks.",description:"Checkbox label description. Additional text that appears on the checkbox element."},progress:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.progress",defaultMessage:"Progress",description:"Checkbox label. Appears on the checkbox, that allows user to configure epic progress information visibility."},progressDescription:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.progress-description",defaultMessage:"View the status of child issues and track how work is progressing.",description:"Checkbox label description. Additional text that appears on the checkbox element."},warning:{
+id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.warning",defaultMessage:"Warnings",description:"Checkbox label. Appears on the dropdown, that allows user to configure epic progress information visibility."},warningDescription:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.warning-description",defaultMessage:"View warnings on the roadmap.",description:"Checkbox label description. Additional text that appears on the dropdown element."},releases:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.releases",defaultMessage:"Releases",description:"Checkbox label. Appears on the checkbox, that allows user to configure releases visibility."},releasesDescription:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.releases-description",defaultMessage:"Show releases on the timeline to stay on top of delivery times",description:"Checkbox label description. Additional text that appears on the checkbox element."},all:{
+id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.all",defaultMessage:"All",description:"Option label. Appears on the dropdown option, indicate user that this option allow them to see all epics on roadmap."},complete:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.complete",defaultMessage:"Complete",description:"Option label. Appears on the dropdown option, indicate user that this option allow them to see only the completed epics on roadmap."},incomplete:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.incomplete",defaultMessage:"Incomplete",description:"Option label. Appears on the dropdown option, indicate user that this option allow them to see only the incomplete epics on roadmap."},oneMonth:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.one-month",defaultMessage:"1 month",
+description:"Option label. Appears on the dropdown option, indicate user that this option allows them to see only the completed epics on roadmap in the last one month."},threeMonths:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.three-months",defaultMessage:"3 months",description:"Option label. Appears on the dropdown option, indicate user that this option allows them to see only the completed epics on roadmap in the last two months."},sixMonths:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.six-months",defaultMessage:"6 months",description:"Option label. Appears on the dropdown option, indicate user that this option allows them to see only the completed epics on roadmap in the last six months."},nineMonths:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.nine-months",defaultMessage:"9 months",
+description:"Option label. Appears on the dropdown option, indicate user that this option allows them to see only the completed epics on roadmap in the last nine months."},twelveMonths:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.twelve-months",defaultMessage:"12 months",description:"Option label. Appears on the dropdown option, indicate user that this option allows them to see only the completed epics on roadmap in the last twelve months."},showComplete:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.show-complete",defaultMessage:"Show {levelOneName} issues completed in the last",description:'Radio button label. Indicate user that this option allows them to see completed epics on roadmap within a time period. "levelOneName" is the name of the issue type with a heirarchy of one, e.g. Epic'},hideComplete:{id:"roadmap.standard-roadmap.table-overlay.panel.view-settings.hide-complete",defaultMessage:"Hide all completed {levelOneName} issues",
+description:'Radio button label. Indicate user that this option allows them to hide completed epics on roadmap. "levelOneName" is the name of the issue type with a heirarchy of one, e.g. Epic'}}),i=o("vOnD");const s=i.default.div.withConfig({componentId:"sc-1o4jdbe-0"})`display:flex;justify-content:space-between;padding:${2*o("1T3M").f}px ${3*o("1T3M").f}px 0;`,l=i.default.div.withConfig({componentId:"sc-1o4jdbe-1"})`padding:0px ${3*o("1T3M").f}px;`,c=i.default.div.withConfig({componentId:"sc-1o4jdbe-2"})`${Object(o("PFik").h400)()};font-weight:600;margin:${3*o("1T3M").f}px 0 10px 0;display:flex;`,b=(i.default.div.withConfig({componentId:"sc-1o4jdbe-3"})`margin-left:${o("1T3M").f}px;`,i.default.div.withConfig({componentId:"sc-1o4jdbe-4"})`font-size:12px;color:${"var(--ds-text-subtlest, #344563)"};margin:${o("1T3M").f}px 0 ${3*o("1T3M").f}px 0;`,i.default.div.withConfig({componentId:"sc-1o4jdbe-5"
+})`font-size:12px;color:${"var(--ds-text-subtlest, #6B778C)"};margin:0 0 ${3*o("1T3M").f}px 29px;`),p=(i.default.div.withConfig({componentId:"sc-1o4jdbe-6"})`display:flex;flex-direction:row;> div{align-items:start;}`,i.default.div.withConfig({componentId:"sc-1o4jdbe-7"})`margin-bottom:${3*o("1T3M").f}px;`),g=i.default.div.withConfig({componentId:"sc-1o4jdbe-8"})`word-wrap:normal;white-space:normal;font-size:12px;color:${"var(--ds-text-subtlest, #6B778C)"};margin-left:28px;`,h=i.default.div.withConfig({componentId:"sc-1o4jdbe-9"})`margin:${1.5*o("1T3M").f}px 0 6px 29px;`,u=i.default.div.withConfig({componentId:"sc-1o4jdbe-10"})`margin-top:${5*o("1T3M").f}px;`,v=e=>{const{isDependenciesVisible:a,onToggleDependencies:t}=e,{formatMessage:r}=Object(o("6JHv").a)(),{onDependenciesToggle:i}=(e=>{const{isDependenciesVisible:a,onToggleDependencies:t}=e;return{onDependenciesToggle:(e,r)=>{Object(o("DM/X").a)(r,{name:"changeDependenciesView",attributes:{value:!a}}),t(!a)}}})({
+isDependenciesVisible:a,onToggleDependencies:t});return n.a.createElement(p,null,n.a.createElement(o("epHX").a,{isChecked:a,label:r(d.dependencies),onChange:i}),n.a.createElement(g,null,r(d.dependenciesDescription)))};v.displayName="DependenciesSetting";var m=Object(r.memo)(v),k=Object(t.connect)((e=>({isDependenciesVisible:Object(o("mNne").l)(e)})),{onToggleDependencies:o("IDEm").g},Object(o("Y11f").d)({onToggleDependencies:o("bTvk").z}))(m);const f=e=>{const{levelOneSetting:a,typeName:t,onLevelOneSettingChange:i}=e,{formatMessage:s}=Object(o("6JHv").a)(),{createAnalyticsEvent:l}=Object(o("rZ/p").a)(),{onLevelOneViewToggle:p}=(e=>{const{levelOneSetting:a,onLevelOneSettingChange:t}=e;return{onLevelOneViewToggle:(e,r,n)=>{Object(o("SALc").h)(r,"changeLevelOneView",{changedFrom:a,changedTo:e,type:n}),t(e)}}})({levelOneSetting:a,onLevelOneSettingChange:i}),g=a.period,u=a.showCompleted,v=Object(r.useMemo)((()=>[{label:s(d.twelveMonths),value:12},{label:s(d.nineMonths),value:9},{
+label:s(d.sixMonths),value:6},{label:s(d.threeMonths),value:3},{label:s(d.oneMonth),value:1}]),[s]),m=Object(r.useCallback)((({currentTarget:e},a)=>{p({showCompleted:e.value!==o("QWse").f,period:g},a,"RADIO_BUTTON")}),[p,g]),k=Object(r.useCallback)((()=>{const e=l({action:"click",actionSubject:"dropdownMenu"});Object(o("SALc").h)(e,"levelOneViewSelectMenuOpen")}),[l]),f=Object(r.useCallback)(((e,a,o)=>{p({showCompleted:!0,period:e.value},o,"SELECT_DROPDOWN")}),[p]);return n.a.createElement(n.a.Fragment,null,n.a.createElement(c,null,s(d.displayRangeTitle)),n.a.createElement(o("VhUr").a,{isChecked:u,onChange:m,name:"display_option",value:"COMPLETE",label:s(d.showComplete,{levelOneName:t})}),n.a.createElement(h,null,n.a.createElement(o("Jyfm").b,{value:(()=>v.find((e=>e.value===g)))(),options:v,isSearchable:!1,spacing:"compact",onChange:f,isDisabled:!u,onMenuOpen:k})),n.a.createElement(b,null,s(d.displayRangeHelp,{levelOneName:t})),n.a.createElement(o("VhUr").a,{isChecked:!u,onChange:m,
+name:"display_option",value:o("QWse").f,label:s(d.hideComplete,{levelOneName:t})}),n.a.createElement(b,null,s(d.hideCompleteHelp,{levelOneName:t})))};var x=Object(r.memo)(f),C=Object(t.connect)((e=>({typeName:Object(o("UE4L").q)(e,Object(o("UE4L").e)(e)[0]).name,levelOneSetting:Object(o("mNne").j)(e)})),{onLevelOneSettingChange:o("IDEm").h},Object(o("Y11f").d)({onLevelOneSettingChange:o("bTvk").B}))(x);const w=e=>{const{isProgressVisible:a,onToggleProgress:t}=e,{formatMessage:r}=Object(o("6JHv").a)(),{onProgressToggle:i}=(e=>{const{isProgressVisible:a,onToggleProgress:t}=e;return{onProgressToggle:(e,r)=>{Object(o("DM/X").a)(r,{name:"changeProgressView",attributes:{value:!a}}),t(!a)}}})({isProgressVisible:a,onToggleProgress:t});return n.a.createElement(p,null,n.a.createElement(o("epHX").a,{isChecked:a,label:r(d.progress),onChange:i}),n.a.createElement(g,null,r(d.progressDescription)))};w.displayName="ProgressSetting";var j=Object(r.memo)(w),y=Object(t.connect)((e=>({
+isProgressVisible:Object(o("mNne").n)(e)})),{onToggleProgress:o("IDEm").i},Object(o("Y11f").d)({onToggleProgress:o("bTvk").C}))(j);const O=e=>{const{isReleasesVisible:a,onToggleReleases:t}=e,{formatMessage:r}=Object(o("6JHv").a)(),{onReleasesToggle:i}=(e=>{const{isReleasesVisible:a,onToggleReleases:t}=e;return{onReleasesToggle:(e,r)=>{Object(o("DM/X").a)(r,{name:"changeReleasesView",attributes:{value:!a}}),t(!a)}}})({isReleasesVisible:a,onToggleReleases:t});return n.a.createElement(p,null,n.a.createElement(o("epHX").a,{testId:"roadmap.standard-roadmap.table-overlay.panel.view-settings.releases.checkbox",isChecked:a,label:r(d.releases),onChange:i}),n.a.createElement(g,null,r(d.releasesDescription)))};O.displayName="ReleasesSetting";var E=Object(r.memo)(O),A=Object(t.connect)((e=>({isReleasesVisible:Object(o("PKkE").d)(e)})),{onToggleReleases:o("IDEm").j},Object(o("Y11f").d)({onToggleReleases:o("bTvk").D}))(E);const F=e=>{
+const{onClose:a,DisplayRange:t,DependenciesSetting:r,ProgressSetting:i,WarningsSetting:b,ReleasesSetting:p,ViewSettingsHelp:g,isReleasesFeatureEnabled:h}=e,{formatMessage:u}=Object(o("6JHv").a)();return n.a.createElement(n.a.Fragment,null,n.a.createElement(s,null,n.a.createElement("h2",null,u(d.title)),n.a.createElement(o("340+").a,{"aria-label":u(d.close),appearance:"subtle",iconBefore:n.a.createElement(o.n(o("ZSU+")).a,{label:""}),onClick:a})),n.a.createElement(l,null,n.a.createElement(t,null),n.a.createElement(c,null,u(d.featuresTitle)),n.a.createElement(r,null),n.a.createElement(i,null),h&&n.a.createElement(p,null),Object(o("zcAq").g)()&&n.a.createElement(b,null),n.a.createElement(g,null)))};var M=Object(r.memo)(F);const D=()=>{const{formatMessage:e}=Object(o("6JHv").a)();return n.a.createElement(u,null,n.a.createElement(o("EDfC").a,{articleId:"2h58CdrPjAUe8txb6VDUSo",appearance:"link",spacing:"none",fallbackComponent:n.a.createElement(o("340+").a,{href:o("gLKF").a.CUSTOMIZE_VIEW,
+appearance:"link",spacing:"none"},e(d.viewSettingsLearnMore))},e(d.viewSettingsLearnMore)))};D.displayName="ViewSettingsHelp";var S=D;const R=e=>{const{isWarningsVisible:a,onToggleWarnings:t}=e,{formatMessage:r}=Object(o("6JHv").a)(),{onWarningToggle:i}=(e=>{const{isWarningsVisible:a,onToggleWarnings:t}=e;return{onWarningToggle:(e,r)=>{Object(o("DM/X").a)(r,{name:"changeWarningView",attributes:{value:!a}}),t(!a)}}})({isWarningsVisible:a,onToggleWarnings:t});return n.a.createElement(p,null,n.a.createElement(o("epHX").a,{isChecked:a,label:r(d.warning),onChange:i}),n.a.createElement(g,null,r(d.warningDescription)))};R.displayName="WarningsSetting";var T=Object(r.memo)(R),I=Object(t.connect)((e=>({isWarningsVisible:Object(o("mNne").o)(e)})),{onToggleWarnings:o("IDEm").k},Object(o("Y11f").d)({onToggleWarnings:o("bTvk").E}))(T);a.default=Object(t.connect)((e=>({DependenciesSetting:k,ProgressSetting:y,WarningsSetting:I,DisplayRange:C,ViewSettingsHelp:S,ReleasesSetting:A,
+isReleasesFeatureEnabled:Object(o("UE4L").n)(e)})),{onClose:o("cM47").e})(M)},UxYk:function(e,a,o){"use strict";o.d(a,"a",(function(){return l})),o.d(a,"b",(function(){return c}));var t={};o.r(t),o.d(t,"setNavigationData",(function(){return n})),o.d(t,"setReleaseNotesNotifications",(function(){return d}));const r=Object(o("Rtjp").d)("iph"),n=e=>({setState:a,getState:o})=>{const t=o();a({navigationData:{articleId:e.articleId?e.articleId:t.navigationData.articleId,history:e.history?e.history:t.navigationData.history}}),r.set("history",e.history)},d=e=>({setState:a})=>{a({releaseNotesNotifications:e})},i={navigationData:{articleId:{id:"",type:"HELP_ARTICLE"},history:Object(o("Rtjp").d)("iph").get("history")||[]},releaseNotesNotifications:100};var s=Object(o("0b8M").a)({name:"help-panel",initialState:i,actions:t});const l=Object(o("dq9g").b)(s),c=Object(o("dq9g").b)(s,{selector:null});Object(o("Y6nV").a)(s,{displayName:"HelpPanelSubscriber"}),Object(o("Y6nV").a)(s,{
+displayName:"HelpPanelActionsSubscriber",selector:null})},VhUr:function(e,a,o){"use strict";var t=o("QILm"),r=o.n(t),n=o("pVnL"),d=o.n(n),i=o("q1tI"),s=o("qKvR");const l={light:{background:"var(--ds-background-subtleBorderedNeutral-resting, #FAFBFC)",backgroundHover:"var(--ds-background-default, #EBECF0)",backgroundActive:"var(--ds-background-subtleBorderedNeutral-pressed, #EBECF0)",backgroundChecked:"var(--ds-background-boldBrand-resting, #0052CC)",backgroundCheckedHover:"var(--ds-background-boldBrand-hover, #0065FF)",backgroundCheckedActive:"var(--ds-background-boldBrand-pressed, #DEEBFF)",backgroundDisabled:"var(--ds-background-subtleBorderedNeutral-resting, #F4F5F7)",dotChecked:"var(--ds-text-onBold, #FAFBFC)",dotDisabled:"var(--ds-text-disabled, #A5ADBA)",dotActive:"var(--ds-text-onBold, #0052CC)",border:"var(--ds-border-neutral, #DFE1E6)",borderHover:"var(--ds-border-neutral, #DFE1E6)",borderDisabled:"var(--ds-background-disabled, #F4F5F7)",
+borderFocus:"var(--ds-border-focus, #4C9AFF)"},dark:{background:"var(--ds-background-subtleBorderedNeutral-resting, #0E1624)",backgroundHover:"var(--ds-background-default, #1B2638)",backgroundActive:"var(--ds-background-subtleBorderedNeutral-pressed, #2684FF)",backgroundChecked:"var(--ds-background-boldBrand-resting, #0052CC)",backgroundCheckedHover:"var(--ds-background-boldBrand-hover, #B3D4FF)",backgroundCheckedActive:"var(--ds-background-boldBrand-pressed, #2684FF)",backgroundDisabled:"var(--ds-background-subtleBorderedNeutral-resting, #0E1624)",dotChecked:"var(--ds-text-onBold, #0E1624)",dotDisabled:"var(--ds-text-disabled, #56637A)",dotActive:"var(--ds-text-onBold, #0E1624)",border:"var(--ds-border-neutral, #455166)",borderHover:"var(--ds-border-neutral, #7988A3)",borderDisabled:"var(--ds-background-disabled, #0E1624)",borderFocus:"var(--ds-border-focus, #B3D4FF)"}}
+;const c=["ariaLabel","isDisabled","isRequired","isInvalid","isChecked","label","mode","name","onChange","value","testId","analyticsContext"],b=Object(o("7w+A").fontFamily)(),p=()=>{},g=Object(s.css)({padding:"2px 4px"}),h=Object(s.css)({display:"flex",boxSizing:"border-box",position:"relative",alignItems:"flex-start",fontFamily:b,"&[data-disabled]":{color:"var(--ds-text-disabled, #97A0AF)",cursor:"not-allowed"}}),u=Object(s.css)({color:"var(--ds-text-highEmphasis, #091E42)"}),v=Object(s.css)({color:"var(--ds-text-highEmphasis, #B8C7E0)"}),m=Object(s.css)({display:"flex",width:"24px",height:"24px",margin:0,position:"relative",alignItems:"center",justifyContent:"center",flexShrink:0,backgroundColor:"var(--radio-background-color)",border:"calc(2px * 12 / 7) solid var(--radio-border-color)",borderRadius:"50%",MozAppearance:"none",outline:"none","--radio-background-color":"var(--local-background)","--radio-border-color":"var(--local-border)","--radio-dot-color":"var(--local-dot-checked)",
+"--radio-dot-opacity":0,transform:"scale(calc(7 / 12))",transition:"border-color 0.2s ease-in-out, background-color 0.2s ease-in-out",verticalAlign:"top",WebkitAppearance:"none","&::after":{width:"calc(4px * 12 / 7)",height:"calc(4px * 12 / 7)",position:"absolute",background:"var(--radio-dot-color)",borderRadius:"50%",content:"''",opacity:"var(--radio-dot-opacity)",transition:"background-color 0.2s ease-in-out, opacity 0.2s ease-in-out"},"&:hover":{"--radio-background-color":"var(--local-background-hover)","--radio-border-color":"var(local-border-hover)"},"&:active":{"--radio-background-color":"var(--local-background-active)"},"&:focus":{"--radio-border-color":"var(--local-border-focus)"},"&:checked":{"--radio-background-color":"var(--local-background-checked)","--radio-border-color":"var(--local-background-checked)","--radio-dot-opacity":1},"&:checked:hover":{"--radio-background-color":"var(--local-background-checked-hover)",
+"--radio-border-color":"var(--local-background-checked-hover)"},"&:checked:active":{"--radio-background-color":"var(--local-background-checked-active)","--radio-border-color":"var(--local-border-hover)","--radio-dot-color":"var(--local-dot-active)"},"&:checked:focus":{"--radio-border-color":"var(--local-border-focus)"},"&[data-invalid], &:checked[data-invalid]":{"--radio-border-color":"var(--local-invalid)"},"&:disabled, &:disabled:hover, &:disabled:focus, &:disabled:active, &:disabled[data-invalid]":{cursor:"not-allowed","--radio-background-color":"var(--local-background-disabled)","--radio-border-color":"var(--local-border-disabled)","--radio-dot-color":"var(--local-dot-disabled)"},"&:checked:disabled":{"--radio-border-color":"transparent"}}),k=Object(i.forwardRef)((function(e,a){const{ariaLabel:t,isDisabled:n=!1,isRequired:b,isInvalid:k=!1,isChecked:f=!1,label:x,mode:C,name:w,onChange:j=p,value:y,testId:O,analyticsContext:E}=e,A=r()(e,c),F=Object(o("NvXi").a)({fn:j,action:"changed",
+analyticsData:E,componentName:"radio",packageName:"@atlaskit/radio",packageVersion:"5.3.4"}),M=Object(i.useMemo)((()=>Object(s.css)(function(e){const a=l[e];return{"--local-background":a.background,"--local-background-active":a.backgroundActive,"--local-background-checked":a.backgroundChecked,"--local-background-checked-active":a.backgroundCheckedActive,"--local-background-checked-hover":a.backgroundCheckedHover,"--local-background-disabled":a.backgroundDisabled,"--local-background-hover":a.backgroundHover,"--local-border":a.border,"--local-border-disabled":a.borderDisabled,"--local-border-hover":a.borderHover,"--local-border-focus":a.borderFocus,"--local-dot-active":a.dotActive,"--local-dot-checked":a.dotChecked,"--local-dot-disabled":a.dotDisabled,"--local-invalid":"var(--ds-iconBorder-danger, #FF5630)"}}(C))),[C]);return Object(s.jsx)("label",{"data-testid":O&&`${O}--radio-label`,"data-disabled":n?"true":void 0,css:[h,"light"===C?u:v]},Object(s.jsx)("input",d()({},A,{"aria-label":t,
+checked:f,disabled:n,name:w,onChange:F,required:b,type:"radio",value:y,"data-testid":O&&`${O}--radio-input`,"data-invalid":k?"true":void 0,css:[m,M],ref:a})),x?Object(s.jsx)("span",{css:g},x):null)})),f=Object(i.memo)(Object(i.forwardRef)((function(e,a){return Object(s.jsx)(o("1chJ").a.Consumer,null,(({mode:o})=>Object(s.jsx)(k,d()({},e,{ref:a,mode:o}))))})));a.a=f},ZMdd:function(e,a,o){"use strict";o.d(a,"b",(function(){return t})),o.d(a,"a",(function(){return r})),o.d(a,"c",(function(){return n}));const t="1",r="helpPanel",n=46*o("1T3M").f},epHX:function(e,a,o){"use strict";o.d(a,"a",(function(){return j}));var t=o("QILm"),r=o.n(t),n=o("pVnL"),d=o.n(n),i=o("q1tI"),s=o("qKvR");const l=s.css`
+  /* Make the input invisible */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  /* Necessary to hide correctly on mobile Safari */
+  border: none;
+  width: 0px;
+  height: 0px;
+  /* Necessary to hide focus ring on Firefox */
+  outline: none;
+
+  /*
+    Change the variables --checkbox-background-color, --checkbox-border-color
+    and --checkbox-tick-color according to user interactions.
+    All other variables are constant.
+    All styles from the input target the sibling svg.
+  */
+  & + svg {
+    --checkbox-background-color: var(--local-background);
+    --checkbox-border-color: var(--local-border);
+    --checkbox-tick-color: var(--local-tick-rest);
+    /* Color changes the background color */
+    color: var(--checkbox-background-color);
+    /* Fill changes the tick color */
+    fill: var(--checkbox-tick-color);
+    transition: color 0.2s ease-in-out, fill 0.2s ease-in-out;
+    flex-shrink: 0;
+    /* If the label is multiple lines, don't center the checkbox */
+    align-self: flex-start;
+  }
+  & + svg rect:first-of-type {
+    /* Stroke changes the color of the border */
+    stroke: var(--checkbox-border-color);
+    stroke-width: 2px;
+    transition: stroke 0.2s ease-in-out;
+  }
+
+  /* Styles are listed in order of increasing specificity  */
+
+  /*
+    Compiled will order the pseudo classes by LVFHA
+    As the background colour changes on hover, it is okay for the
+    border focus colour to take precedence over hover.
+    && is used to make the focus styles more specific than the hover
+    styles
+   */
+  &&:focus + svg,
+  &&:checked:focus + svg {
+    --checkbox-border-color: var(--local-border-focus);
+  }
+
+  &:hover + svg {
+    --checkbox-background-color: var(--local-background-hover);
+    --checkbox-border-color: var(--local-border-hover);
+  }
+  &:checked:hover + svg {
+    --checkbox-background-color: var(--local-background-checked-hover);
+    --checkbox-border-color: var(--local-border-checked-hover);
+  }
+
+  &:checked + svg {
+    --checkbox-background-color: var(--local-background-checked);
+    --checkbox-border-color: var(--local-border-checked);
+    --checkbox-tick-color: var(--local-tick-checked);
+  }
+
+  &[data-invalid] + svg {
+    --checkbox-border-color: var(--local-border-invalid);
+  }
+  &:checked[data-invalid] + svg {
+    --checkbox-border-color: var(--local-border-checked-invalid);
+  }
+
+  &:active + svg {
+    --checkbox-background-color: var(--local-background-active);
+    --checkbox-border-color: var(--local-border-active);
+  }
+  &:checked:active + svg {
+    --checkbox-tick-color: var(--local-tick-active);
+    --checkbox-background-color: var(--local-background-active);
+    --checkbox-border-color: var(--local-border-active);
+  }
+
+  &:disabled + svg,
+  &:disabled:hover + svg,
+  &:disabled:focus + svg,
+  &:disabled:active + svg,
+  &:disabled[data-invalid] + svg {
+    --checkbox-background-color: var(--local-background-disabled);
+    --checkbox-border-color: var(--local-border-disabled);
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  &:disabled:checked + svg {
+    --checkbox-tick-color: var(--local-tick-disabled);
+  }
+
+  @media screen and (forced-colors: active) {
+    & + svg {
+      --checkbox-background-color: Canvas;
+      --checkbox-border-color: CanvasText;
+      --checkbox-tick-color: CanvasText;
+    }
+
+    &:checked + svg,
+    &:checked:hover + svg {
+      --checkbox-background-color: Canvas;
+      --checkbox-border-color: CanvasText;
+      --checkbox-tick-color: CanvasText;
+    }
+
+    &:focus + svg rect:first-of-type {
+      stroke: Highlight;
+    }
+
+    &[data-invalid] + svg {
+      --checkbox-border-color: Highlight;
+    }
+    &:checked[data-invalid] + svg {
+      --checkbox-border-color: Highlight;
+    }
+
+    &:disabled + svg,
+    &:disabled:hover + svg,
+    &:disabled:focus + svg,
+    &:disabled:active + svg,
+    &:disabled[data-invalid] + svg {
+      --checkbox-background-color: Canvas;
+      --checkbox-border-color: GrayText;
+      --checkbox-tick-color: GrayText;
+    }
+  }
+`,c={light:{borderColor:{rest:"var(--ds-border-neutral, #DFE1E6)",hovered:"var(--ds-border-neutral, #DFE1E6)",disabled:"var(--ds-background-disabled, #F4F5F7)",checked:"var(--ds-background-boldBrand-resting, #0052CC)",active:"var(--ds-border-neutral, #DEEBFF)",invalid:"var(--ds-iconBorder-danger, #FF5630)",invalidAndChecked:"var(--ds-iconBorder-danger, #FF5630)",focused:"var(--ds-border-focus, #4C9AFF)",hoveredAndChecked:"var(--ds-background-boldBrand-hover, #0065FF)"},boxColor:{rest:"var(--ds-background-subtleBorderedNeutral-resting, #FAFBFC)",hovered:"var(--ds-background-default, #EBECF0)",disabled:"var(--ds-background-disabled, #F4F5F7)",active:"var(--ds-background-subtleBorderedNeutral-pressed, #DEEBFF)",hoveredAndChecked:"var(--ds-background-boldBrand-hover, #0065FF)",checked:"var(--ds-background-boldBrand-resting, #0052CC)"},tickColor:{disabledAndChecked:"var(--ds-text-disabled, #A5ADBA)",activeAndChecked:"var(--ds-text-onBold, #0052CC)",checked:"var(--ds-text-onBold, #FAFBFC)"}
+},dark:{borderColor:{rest:"var(--ds-border-neutral, #455166)",hovered:"var(--ds-border-neutral, #7988A3)",disabled:"var(--ds-background-disabled, #0E1624)",checked:"var(--ds-background-boldBrand-resting, #0052CC)",active:"var(--ds-border-neutral, #2684FF)",invalid:"var(--ds-iconBorder-danger, #FF5630)",invalidAndChecked:"var(--ds-iconBorder-danger, #FF5630)",focused:"var(--ds-border-focus, #B3D4FF)",hoveredAndChecked:"var(--ds-background-boldBrand-hover, #B3D4FF)"},boxColor:{rest:"var(--ds-background-subtleBorderedNeutral-resting, #0E1624)",hovered:"var(--ds-background-default, #1B2638)",disabled:"var(--ds-background-disabled, #0E1624)",active:"var(--ds-background-subtleBorderedNeutral-pressed, #2684FF)",hoveredAndChecked:"var(--ds-background-boldBrand-hover, #B3D4FF)",checked:"var(--ds-background-boldBrand-resting, #0052CC)"},tickColor:{disabledAndChecked:"var(--ds-text-disabled, #56637A)",activeAndChecked:"var(--ds-text-onBold, #0E1624)",checked:"var(--ds-text-onBold, #0E1624)"}}}
+;var b=e=>{const a=c[e],o=a.boxColor,t=a.tickColor,r=a.borderColor;return[s.css`
+      & + svg {
+        --local-background: ${o.rest};
+        --local-background-hover: ${o.hovered};
+        --local-background-active: ${o.active};
+        --local-background-checked: ${o.checked};
+        --local-background-checked-hover: ${o.hoveredAndChecked};
+        --local-background-disabled: ${o.disabled};
+
+        --local-tick-rest: transparent;
+        --local-tick-checked: ${t.checked};
+        --local-tick-disabled: ${t.disabledAndChecked};
+        --local-tick-active: ${t.activeAndChecked};
+
+        --local-border: ${r.rest};
+        --local-border-disabled: ${r.disabled};
+        --local-border-checked: ${r.checked};
+        --local-border-active: ${r.active};
+        --local-border-invalid: ${r.invalid};
+        --local-border-focus: ${r.focused};
+        --local-border-hover: ${r.hovered};
+        --local-border-checked-hover: ${r.hoveredAndChecked};
+        --local-border-checked-invalid: ${r.invalidAndChecked};
+      }
+    `,l]};const p=Object(o("7w+A").fontFamily)();function g({children:e,isDisabled:a,testId:o,onClick:t}){const r=Object(i.useMemo)((()=>(()=>({fontFamily:p,alignItems:"center",display:"flex",color:"var(--ds-text-highEmphasis, #091E42)",cursor:"default","&[data-disabled]":{color:"var(--ds-text-disabled, #97A0AF)",cursor:"not-allowed"}}))()),[]);return Object(s.jsx)("label",{css:r,"data-testid":o,"data-disabled":a||void 0,onClick:t},e)}const h=.5*Object(o("7w+A").gridSize)(),u={paddingRight:h,paddingLeft:h};function v({children:e}){return Object(s.jsx)("span",{css:u},e)}const m=.25*Object(o("7w+A").gridSize)()+"px";function k(e){return Object(s.jsx)("span",d()({css:{color:"var(--ds-text-danger, #BF2600)",paddingLeft:m}},e),"*")}const f=["isChecked","isDisabled","isInvalid","defaultChecked","isIndeterminate","size","onChange","analyticsContext","label","mode","name","value","isRequired","testId"],x="undefined"!=typeof navigator&&navigator.userAgent.toLowerCase().indexOf("firefox")>-1
+;const C=Object(i.memo)((({size:e,isIndeterminate:a,isChecked:t})=>Object(s.jsx)(o("HMrK").a,{label:"",size:e,primaryColor:"var(--checkbox-background-color)",secondaryColor:"var(--checkbox-tick-color)"},Object(s.jsx)("g",{fillRule:"evenodd"},Object(s.jsx)("rect",{fill:"currentColor",x:"6",y:"6",width:"12",height:"12",rx:"2"}),function(e,a){return e?Object(s.jsx)("rect",{fill:"inherit",x:"8",y:"11",width:"8",height:"2",rx:"1"}):a?Object(s.jsx)("path",{d:"M9.707 11.293a1 1 0 1 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 1 0-1.414-1.414L11 12.586l-1.293-1.293z",fill:"inherit"}):null}(a,t))))),w=Object(i.forwardRef)((function(e,a){const{isChecked:t,isDisabled:n=!1,isInvalid:l=!1,defaultChecked:c=!1,isIndeterminate:p=!1,size:h="medium",onChange:u,analyticsContext:m,label:w,mode:j,name:y,value:O,isRequired:E,testId:A}=e,F=r()(e,f),[M,D]=Object(i.useState)(void 0!==t?t:c),S=Object(i.useCallback)(((e,a)=>{D(e.target.checked),u&&u(e,a)}),[u]),R=Object(o("NvXi").a)({fn:S,action:"changed",
+analyticsData:m,componentName:"checkbox",packageName:"@atlaskit/checkbox",packageVersion:"12.3.5"}),T=Object(i.useRef)(null),I=Object(o("1yOk").a)([T,a]),B=void 0===t?M:t,N=Object(i.useMemo)((()=>b(j)),[j]);return Object(s.jsx)(g,{isDisabled:n,testId:A&&`${A}--checkbox-label`,onClick:x?e=>{var a;(e.ctrlKey||e.metaKey||e.shiftKey)&&(null===(a=T.current)||void 0===a||a.click())}:void 0},Object(s.jsx)("input",d()({},F,{type:"checkbox",ref:I,disabled:n,checked:B,value:O,name:y,required:E,css:N,onChange:R,"aria-checked":p?"mixed":B,"aria-invalid":l?"true":void 0,"data-testid":A&&`${A}--hidden-checkbox`,"data-invalid":l?"true":void 0})),Object(s.jsx)(C,{size:h,isIndeterminate:p,isChecked:B}),w&&Object(s.jsx)(v,null,w,E&&Object(s.jsx)(k,{"aria-hidden":"true"})))})),j=Object(i.memo)(Object(i.forwardRef)((function(e,a){return Object(s.jsx)(o("1chJ").a.Consumer,null,(({mode:o})=>Object(s.jsx)(w,d()({},e,{ref:a,mode:o}))))})));j.displayName="Checkbox";a.b=j},z3Aa:function(e,a,o){"use strict"
+;o.d(a,"a",(function(){return i})),o.d(a,"c",(function(){return l})),o.d(a,"b",(function(){return c}));var t=o("3tO9"),r=o.n(t),n=o("q1tI");const d=Object(o("dq9g").b)(o("RjcF").b,{selector:e=>{const a=Object(o("aNIx").f)(e.content.rightSidebar);return a?r()(r()({},a),{},{shouldRender:!e.isChromeless}):null}}),i=()=>{const[e]=d();return e},s=Object(o("dq9g").b)(o("RjcF").b,{selector:e=>e.content.rightSidebar}),l=()=>{const[e]=s();return e},c=()=>{const[,{setRightSidebarState:e,openRightSidebar:a,closeRightSidebar:t,closeCurrentRightSidebar:r,closeAllRightSidebar:d,minimiseRightSidebar:i}]=Object(o("RjcF").c)();return Object(n.useMemo)((()=>({setRightSidebarState:e,closeRightSidebar:t,openRightSidebar:a,closeCurrentRightSidebar:r,closeAllRightSidebar:d,minimiseRightSidebar:i})),[d,r,t,a,e,i])}}}]);try{window.__jsEvalStop("async-standard-roadmap-view-settings.js")}catch(e){}
+//# sourceMappingURL=https://statlas.prod.atl-paas.net/jira-frontend-source-maps/assets/async-standard-roadmap-view-settings.81b898e121c031798b8e.8.js.map
