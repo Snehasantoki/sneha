@@ -1,0 +1,73 @@
+<!-- 
+    
+    The opacity property sets the opacity level for an element.
+    The opacity-level describes the transparency-level, where 1 is not transparent at all,
+     0.5 is 50% see-through, and 0 is completely transparent. 
+    
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .img-filter img
+       
+        {
+            width: 50%;
+            height: 250px;
+            margin: auto;
+            margin-left: 35%;
+            margin-top: 5%;
+            border: solid 5px rgb(14, 6, 131);
+            filter: opacity(0.2);
+        }
+        .img-filter1 img
+        {
+            width: 50%;
+            height: 250px;
+            margin: auto;
+            margin-left: 35%;
+            margin-top: 5%;
+            border: solid 5px rgb(104, 3, 64);
+            filter: opacity(0.5);
+        }
+        .img-filter2 img
+        {
+            width: 50%;
+            height: 250px;
+            margin: auto;
+            margin-left: 35%;
+            margin-top: 5%;
+            border: solid 5px black;
+            filter: opacity(1);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+
+    <div class="img-filter">
+        <img src="images/1.jpg">
+    </div>
+
+    
+    <div class="img-filter1">
+        <img src="images/1.jpg">
+    </div>
+
+    
+    
+    <div class="img-filter2">
+        <img src="images/1.jpg">
+    </div>
+    
+</body>
+</html>
