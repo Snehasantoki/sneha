@@ -1,0 +1,85 @@
+<!--
+    The “blocks” are known for taking full line space, forcing other elements to start on a new line. 
+    In other words, they have a width of 100% of the webpage or container holding the block.  
+    In this article, we are going to see how to block elements that usually behave and how to center them using CSS.
+    ~>Block Elements Behaviour: 
+                    Any element can be set to behave like a block by setting their display property to the block “display: block”. 
+                    There are some other elements like headers, div tags which are by default block. 
+                    So they take the full line or full width of the web page or container holding it. 
+                    Even if our content is taking 20% of the width of the webpage still the block property will reserve the full 100% width of the web page or container holding it.
+    
+    ~>How to center these block elements: 
+                    We have seen that how this block element behaves, we observe that as they take full line width, to center them we only have the margin property that is controlling them horizontally.
+                   The margin can control the position of the block element both horizontally and vertically. 
+                   To center them, we can adjust the margin property such that it is placed in the center.          
+    
+    ~>Center block elements using margin property: 
+                   We need to specify the margin from left and right such that it looks centered. 
+                   We do not need to do this manually, we have one property value “auto” which will automatically set the margin such that our block element is placed in the center. 
+                   Use the below CSS property to center your block element.                     
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        
+        h2,p 
+        {
+            text-align: center;
+        }
+          
+        .myblock 
+        {
+            margin: auto;
+            border: 2px solid rgb(30, 97, 213);
+            width: fit-content;
+            padding: 15px;
+            text-align: center;
+            background-color: lightyellow;
+        }
+          
+        header 
+        {
+            font-size: 40px;
+            background-color: rgb(144, 98, 125);
+            margin: auto;
+            width: fit-content;
+        }
+       .myinline 
+        {
+            padding: 10px;
+            border: 2px solid rgb(87, 240, 243);
+        }
+          
+        .holder 
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome</h2>
+    <p>Default code has been loaded into the Editor.</p>
+  
+    <header>hello</header>
+    <div class="myblock">
+        div who has default display : block
+    </div>
+      
+    <div class="holder">
+        <div style="display: inline-block" class="myinline">
+            inline block paragraph 1
+        </div>
+      
+        <div style="display: inline-block" class="myinline">
+            inline block paragraph 2
+        </div>
+    </div>
+</body>
+</html>
