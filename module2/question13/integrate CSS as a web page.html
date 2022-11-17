@@ -1,0 +1,49 @@
+<!--
+    You all must be aware of the analogy about HTML, CSS, and Javascript that is being made with the human body. If HTML is the bones, then CSS is the muscle and javascript is the brain of the webpage.
+There are millions of websites available on the internet, the only way for a website to stand out from others is its styling and interactivity. HTML pages without styles are just word documents getting displayed on the browser. So styles play a very crucial role in the development of any website.
+Styles can be added to any HTML page in three ways: Inline, Internal, and External.
+Let's get into the details for these three ways and how to apply the same on our web page.
+Inline CSS
+For inline styles, we use the style attribute of the HTML tags. CSS is passed as a string to the style attribute which adds the styles to the tags.
+For example: If we want to make our web page background blue with inline CSS, we can write something like this:
+<body style="background-color: blue"></body>
+But it is a best practice to separate styles from the HTML tags that is the reason internal and external CSS comes into the picture.
+Internal CSS
+For Internal CSS, a style tag is used in which all the styles related to the webpage are added. This style tag is added in the head tag of the page so that the styles are added even before the HTML document is rendered.
+For example: If we want to make our web page background as blue with internal css, we can right something like this:
+<head>
+    <style>
+      body {
+        background-color: blue;
+      }
+    </style>
+ </head>
+Internal CSS does its job but imagine a scenario where we have to use the same styles for more than one page. In this case, if we use internal CSS it will lead to writing the same code twice, to overcome this external CSS is being used.
+External CSS
+In external CSS we use a separate file with a .css extension where we write all our styles. This CSS file can be used by multiple webpages by using a link tag which is added under the head tag.
+For example: If we want to make our web page background as blue with external CSS, we have to make changes in two files.
+First, we will add all our styles to our CSS file, for our example, it will be styles.css
+body{
+     background-color: blue;
+}
+Then we will link this css file to our html file as follows:
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+To get more understanding of this I would suggest applying the same by creating small projects.
+Happy Styling!
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+</body>
+</html>
