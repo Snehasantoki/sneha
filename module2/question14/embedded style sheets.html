@@ -1,0 +1,36 @@
+<!--
+    CSS stylesheets are used to describe the presentation of a document written in HTML. It provides color, layout, background, font, and border properties while also allowing better content accessibility, enhanced flexibility, and control, as well as the specification of the characteristics of presentation. CSS stylesheets can be applied to an HTML document in 3 ways – inline styles, embedded stylesheet, and external stylesheet.
+Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document. Embedded style sheets are particularly useful for HTML documents that have unique style requirements from the rest of the documents in your project. However, if the styles need to be applied across multiple documents, you should link to an external style sheet instead of using individual embedded style sheets. Using embedded stylesheets holds a distinct advantage over inline styles which only allow you to address one HTML element at a time. 
+Syntax: The CSS syntax for embedded style sheets is exactly the same as other CSS code, apart from the fact that it is now wrapped within the <style></style> tags. The <style> tag takes the ‘type’ attribute that defines the type of style sheet being used
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+        <!-- Embedded stylesheet -->
+    <style>
+        h2 
+        {
+            font-size: 1.5rem;
+            color: #72caf6;
+            text-align: center;
+        }
+  
+        p 
+        {
+            font-variant: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcom to page</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia ducimus, perspiciatis quibusdam quam eaque recusandae, vitae, saepe error veritatis sequi optio reiciendis voluptatem iure voluptate sunt culpa animi sed?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed dolor perferendis maxime accusamus, animi reprehenderit nam assumenda non, voluptates ipsam officiis incidunt fugit ab ad ratione officia fuga illo.</p>
+
+</body>
+</html>
