@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bi-facebook,.bi-twitter,.bi-whatsapp,.bi-person,.bi-instagram 
+{
+    color: rgb(130, 147, 209);
+    font-size: 50px;
+}
+. badge-sm
+{
+    font-size: 15px !important;
+}
