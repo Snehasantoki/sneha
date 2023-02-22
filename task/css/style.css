@@ -1,0 +1,27 @@
+body{
+    width: auto;
+    height: auto;
+    background-color:208aa2 ;
+    background: #1688a2;
+    background: -webkit-linear-gradient(left,#1688a2,#c4bcb1);
+    background: -moz-linear-gradient(left,#1688a2,#c4bcb1);
+    background: linear-gradient(to right,#1688a2,#c4bcb1);
+    
+}
+.content{
+    margin-left: 2%;
+    color: white;
+}
+.info{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+}
+.footer{
+    
+    padding: 5%;
+}
+.img1{
+    margin-left: 52%;
+    
+}
