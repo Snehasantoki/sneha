@@ -1,0 +1,49 @@
+<!-- 
+    The removeClass() method removes one or more class names from the selected elements
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("div").removeClass("content content-data")
+        });
+    </script>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            background-color:rgb(59, 15, 235);
+        }
+
+        .content-data
+        {
+            width: 70%;
+            background-color: rgb(141, 24, 24);
+            margin: auto;
+            height: auto;
+            padding: 20px;
+            margin-top: 3%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>content with us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis maiores placeat earum culpa magni quidem perferendis quibusdam, eius accusamus obcaecati, molestiae architecto excepturi a suscipit, voluptates consequatur eaque unde.</p>
+    </div>
+    
+</body>
+</html>
