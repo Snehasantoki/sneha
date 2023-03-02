@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #f7efef;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.image-container {
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+}
+
+.image-container img {
+    position: relative;
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+}
+
+.active {
+    display: block;
+}
