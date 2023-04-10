@@ -1,0 +1,57 @@
+<script>
+    // switch: switch are used just like if else if we check multiple conditions in switch case.
+    
+    // syntax 
+    //     switch(condition)
+    //     {
+    //         case 1:
+    //             statements;
+    //             break;
+    //         case 2: 
+    //             statements;
+    //             break;
+                
+    //         case 3: 
+    //             statements;
+    //             break;
+    //         default : 
+    //         statements;
+    //         break;      
+    //     }
+
+     function test()
+     {
+     var grade=document.getElementById("grade").value;
+     switch(grade)
+     {
+        case 'A':
+            document.getElementById("demo").innerHTML="You are topper student &#9786";
+            break;
+
+        
+        case 'B':
+            document.getElementById("demo").innerHTML="You are average student &#9786";
+            break;    
+
+        
+        case 'C':
+            document.getElementById("demo").innerHTML="You are faiuled student &#9785";
+            break;    
+
+        default: 
+        document.getElementById("demo").innerHTML="Your grade is not found anywhere please contact with our admin";
+        break;    
+    
+     }
+
+    }
+</script>
+<center>
+    <h4>W.A.P to check your grade and Enter only grade in A,B,C</h4>
+    <p id="demo"></p>
+    <form>
+        Enter Your Grade :<input type="text" id="grade" placeholder="Enter Your grade here" required>
+        <br><br>
+        <button type="button" onclick="test()">Click here</button>
+    </form>    
+</center>
