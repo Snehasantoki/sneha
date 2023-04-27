@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- ● Write the code, one line for each action: -->
+
+
+    <!-- //a  Create an empty object user
+    <script>
+        var empty = {
+            user: "patel"
+        };
+        console.log(empty.user)
+    </script> -->
+
+
+
+    <!-- //b  Add the property name with the value John.
+    <script>
+        var empty = {
+            name: "janvi",
+            sname: "patel"
+        };
+        console.log(empty.name);
+    </script> -->
+
+
+
+    <!-- //c Add the property surname with the value Smith
+    <script>
+        var empty = {
+            name: "janvi",
+            sname: "patel"
+        };
+        console.log(empty.sname);
+    </script> -->
+
+
+
+    <!-- //d Change the value of the name to Pete.
+    <script>
+        var empty = {
+            name: "preet",
+            sname:"ladani"
+        };
+        console.log(empty.name = "sahil");
+    </script> -->
+
+
+
+    <!-- //e Remove the property name from the object
+     <script>
+        var empty = {
+            name: "janvi",
+            sname : "patel"
+        };
+        console.log(delete empty.name);
+        
+    </script> -->
+
+
+
+
+    <!-- ● Is array copied?
+    <script>
+        "use strict";
+        let fruits = ["Apples", "Pear", "Orange"];
+        let shoppingCart = fruits;
+        shoppingCart.push("Banana");
+        alert(fruits.length); // 4
+    </script>  -->
+
+
+
+    <!-- ● Map to names
+    <script>
+        "use strict";
+        let john = { name: "John", age: 25 };
+        let pete = { name: "Pete", age: 30 };
+        let mary = { name: "Mary", age: 28 };
+        let users = [john, pete, mary];
+        let names = users.map(item => item.name);
+        alert(names); // John, Pete, Mary
+    </script> -->
+
+
+
+
+    <!-- ● Map to objects 
+    <script>
+        "use strict";
+        let john = { name: "John", surname: "Smith", id: 1 };
+        let pete = { name: "Pete", surname: "Hunt", id: 2 };
+        let mary = { name: "Mary", surname: "Key", id: 3 };
+        let users = [john, pete, mary];
+        let usersMapped = users.map(user => ({
+            fullName: `${user.name} ${user.surname}`,
+            id: user.id
+        }));
+        alert(usersMapped[0].id); // 1
+        alert(usersMapped[0].fullName); // John Smith
+    </script> -->
+
+
+
+
+    <!-- ● Sum the properties There is a salaries object with arbitrary number of salaries. Write
+      the function sumSalaries(salaries) that returns the sum of all salaries using
+      Object.values and the for..of loop.If salaries is empty, then the result must be 0.
+    <script>
+        "use strict";
+        function sumSalaries(salaries) {
+            let sum = 0;
+            for (let salary of Object.values(salaries)) {
+                sum += salary;
+            }
+            return sum; // 650
+        }
+        let salaries = {
+            "John": 100,
+            "Pete": 300,
+            "Mary": 250
+        };
+        alert(sumSalaries(salaries)); // 650
+    </script>
+ -->
+
+
+
+
+
+
+</body>
+
+</html>
