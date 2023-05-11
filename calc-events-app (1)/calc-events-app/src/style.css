@@ -1,0 +1,51 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.myapp
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#clc-app
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.myapp img 
+{
+    width: 70%;
+    animation:2s fadeInLeft alternate;
+}
+.myapp h1 
+{
+    animation: 2s fadeIn infinite;
+}
+
+.clc-btn
+{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-top: 14%;
+}
+
+.clc-btn button 
+{
+    width: 300px;
+    height: auto;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 5%;
+}
