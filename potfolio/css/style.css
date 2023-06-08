@@ -1,0 +1,49 @@
+
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+}
+.header-navbar li 
+{
+    display: inline-block;
+    padding: 15px 18px;
+}
+.header-navbar a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu 
+{
+    background-color: #f3f3f3 !important;
+}.navbar-brand
+{
+    font-family: alex;
+    color: white;
+}
+
+.navbar-link li 
+{
+    padding: 2px 20px;
+    display: inline-block;
+
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
