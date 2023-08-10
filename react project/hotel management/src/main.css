@@ -1,0 +1,955 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+}
+.navbar{
+    padding: 10px 20px 5px;
+    
+}
+.absnavbar a
+{
+    color: #000;
+    text-decoration: none;
+}
+.my{
+
+    margin-bottom: 6rem;
+    padding: 6rem;
+
+}
+.py{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.pe{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.me{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(37, 37, 37, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+.font h1{
+    color: #d84224;
+    margin-top: 210px;
+    margin-left: 50px;
+     font-weight:bold !important; 
+     font-size: 20px !important;
+}
+.font h2{
+       color: #181E4B;
+       margin-left: 50px;
+       font-weight: bold;
+}
+.font p{
+    margin-left: 50px;
+    color: #272a41;
+}
+
+.btn i{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #DF6951;
+    margin-left: 50px;
+    
+    
+}
+.card1{
+    border: none !important;
+    width: 150px;
+    height: 200px;
+    
+    
+}
+.cad{
+    border-radius: 50px !important;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+
+.card1 img{
+
+    width: 80px;
+    height: 90px;
+}
+.card2{
+
+    border: none !important;
+    width: 150px;
+    height: 150px;
+
+}
+.card2 img{
+
+    width: 100%;
+    height: 100px;
+}
+.CATEGORY h2{
+    color: #181E4B;
+    font-weight: bold;
+}
+.card1{
+    border: none !important;
+    width: 150px;
+    height: 200px;
+    
+    
+}
+.card2{
+
+    border: none !important;
+    width: 150px;
+    height: 190px;
+    
+
+}
+.test h1{
+    color: #181E4B;
+    font-weight: bold;
+}
+
+.gridrow{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-column-gap: 3%;
+}
+
+.selling-card Img{
+
+    width: 200px;
+    height: 250px;
+    border: none;
+}
+
+.selling-card{
+    border: none;
+    width: 200px;
+    height: 350px;
+    
+    
+}
+.sell{
+
+    border-radius: 50px !important;
+    padding: 25px 25px 25px ;
+
+}
+.gridrow-1{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 10%;
+}
+
+.easy h2{
+  
+    color: #181E4B;
+    font-weight: bold;
+
+}
+
+.easy-2 h6{
+
+    color: #181E4B;
+    font-weight: bold;
+}
+.bi-ui-checks-grid{
+    background-color: #F0BB1F;
+    padding: 10px;
+    border-radius: 50px !important;
+}
+.bi-water{
+
+    background-color: #F15A2B;
+    padding: 10px;
+    border-radius: 50px !important;
+}
+.bi-car-front{
+    background-color: #006380;
+    padding: 10px;
+    border-radius: 50px !important;
+}
+.bi-snow{
+    background-color: #908484ae;
+    border-radius: 100%;
+    padding: 5px;
+}
+.bi-map{
+    background-color: #908484ae;
+    border-radius: 100%;
+    padding: 5px;
+}
+.bi-send-fill{
+    background-color: #908484ae;
+    border-radius: 100%;
+    padding: 5px;
+}
+.on{
+    
+    border: 5px  solid rgb(235, 231, 231) !important;
+    border-radius: 10px 2px 10px 2px !important;
+    padding: 2px 2px 2px 2px;
+}
+.chris{
+    margin-left: 50px;
+    margin-top: -10 !important;
+    border: 5px  solid rgb(247, 244, 244) !important;
+    border-radius: 20px 2px 20px 2px !important;
+    background-color: #df69518e;
+    color: rgb(167, 96, 96);
+    
+}
+.image{
+    border: 5px  solid rgb(247, 244, 244) !important;
+    border-radius: 50px !important;
+    width: 50px;
+    height: 50px;
+}
+.log{
+
+    padding: 10px 10px 10px 10px;
+}
+.p{
+    margin-left: 80px !important;
+    
+}
+.p1{
+    margin-left: 20px !important;
+}
+
+.eamil h1{
+      color: #5E6282;
+      font-weight: bold;
+}
+.eamil-2{
+
+    width: 500px !important;
+    height: 20px !important;
+  
+}
+.main-eamil span{
+    background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+    color: white;
+    border-radius: 100%;
+    margin-left: 99%;
+
+}
+.main-eamil{
+    background-color: #DFD7F9;
+    border-radius: 100px 10px 1px 10px;
+    padding: 9px;
+}
+.btn1{
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    padding: 12px;
+}
+.bi-instagram{
+    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+    border-radius: 100%;
+    color: rgb(21, 41, 55);
+    padding: 2px;
+    width: 50px;
+    height: 10px;
+}
+.bi-whatsapp{
+    background: conic-gradient(from 180deg at 50% 50%, #458566 0deg, rgb(34, 239, 89) 60deg, #068e4c 106.09deg, #4c9167 153.75deg, #2bc570 221.25deg, #BFC2E8 258.75deg, #4997b5 288.75deg, #95f9c4 315deg, #0d604c 334.13deg, #429a27 358.97deg, rgba(255, 255, 255, 0) 360deg);
+    border-radius: 100%;
+    padding: 2px;
+    width: 50px;
+    height: 10px;
+    color: rgb(21, 41, 55);
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:576px) {
+    .gridrow{
+        padding: 9% ;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3%;
+    }  
+    
+    .gridrow-1{
+        /* padding: 10%; */
+        grid-template-columns: repeat(1 , 1fr) !important;
+        grid-column-gap: 3%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* .gridrow{
+        padding: 9% ;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3%;
+    }   */
+    
+    .gridrow-1{
+        padding: 10%;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-column-gap: 3%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only  screen and (min-width:320px) and (max-width:480px) {
+
+
+    
+    .headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(48, 47, 47, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+
+    .font h1{
+        color: #d84224;
+        margin-top: 10px;
+        margin-left: 10px;
+         font-weight:bold !important; 
+         font-size: 20px !important;
+    }
+    .font h2{
+           color: #0d165d;
+           margin-left: 10px;
+           font-weight: bold;
+    }
+    .font p{
+        margin-left: 10px;
+        color: #2a2d49;
+    }
+    
+    
+    .btn i{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #DF6951;
+        margin-left: 10px;
+        
+    }
+    .cad{
+        border-radius: 50px !important;
+        padding: 1px 1px 1px 1px;
+        
+    }
+
+    
+
+    
+    
+    .sell{
+    
+        border-radius: 50px !important;
+        padding: 2px 2px 2px;
+        margin: 2%;
+        
+       
+    
+    }
+    .easy h2{
+  
+        color: #181E4B;
+        font-weight: bold;
+    
+    }
+    
+    .easy-2 h6{
+    
+        color: #181E4B;
+        font-weight: bold;
+    }
+    
+    .bi-ui-checks-grid{
+        background-color: #F0BB1F;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-water{
+    
+        background-color: #F15A2B;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-car-front{
+        background-color: #006380;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+
+    .p{
+        margin-left: 20px !important;
+        
+    }
+    .p1{
+        margin-left: 10px !important;
+    }
+    .log{
+
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .eamil h1{
+          color: #5E6282;
+          font-weight: bold;
+    }
+    .eamil-2{
+    
+        width: 150px !important;
+        height: 20px !important;
+      
+    }
+    .main-eamil span{
+        background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+        color: white;
+        border-radius: 100%;
+        margin-left: 95%;
+    
+    }
+    .main-eamil{
+        background-color: #DFD7F9;
+        border-radius: 100px 10px 1px 10px;
+    }
+    .btn1{
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        padding: 12px;
+    }
+    
+    
+}
+
+@media only  screen and (min-width:480px) and (max-width:576px) {
+
+    
+
+    
+    .headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(48, 47, 47, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+
+    .font h1{
+        color: #d84224;
+        margin-top: 10px;
+        margin-left: 10px;
+         font-weight:bold !important; 
+         font-size: 20px !important;
+    }
+    .font h2{
+           color: #0d165d;
+           margin-left: 10px;
+           font-weight: bold;
+    }
+    .font p{
+        margin-left: 10px;
+        color: #2a2d49;
+    }
+    
+    
+    .btn i{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #DF6951;
+        margin-left: 10px;
+        
+    }
+    .cad{
+        border-radius: 50px !important;
+        padding: 1px 1px 1px 1px;
+        
+    }
+
+    
+
+    
+    
+    .sell{
+    
+        border-radius: 50px !important;
+        padding: 2px 2px 2px;
+        margin: 2%;
+        
+       
+    
+    }
+    .easy h2{
+  
+        color: #181E4B;
+        font-weight: bold;
+    
+    }
+    
+    .easy-2 h6{
+    
+        color: #181E4B;
+        font-weight: bold;
+    }
+    
+    .bi-ui-checks-grid{
+        background-color: #F0BB1F;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-water{
+    
+        background-color: #F15A2B;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-car-front{
+        background-color: #006380;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+
+    .p{
+        margin-left: 20px !important;
+        
+    }
+    .p1{
+        margin-left: 10px !important;
+    }
+    .log{
+
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .eamil h1{
+          color: #5E6282;
+          font-weight: bold;
+    }
+    .eamil-2{
+    
+        width: 150px !important;
+        height: 20px !important;
+      
+    }
+    .main-eamil span{
+        background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+        color: white;
+        border-radius: 100%;
+        margin-left: 95%;
+    
+    }
+    .main-eamil{
+        background-color: #DFD7F9;
+        border-radius: 100px 10px 1px 10px;
+    }
+    .btn1{
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        padding: 12px;
+    }
+
+}
+
+@media only  screen and (min-width:576px) and (max-width:768px){
+
+    
+
+    
+    .headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(48, 47, 47, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+
+    .font h1{
+        color: #d84224;
+        margin-top: 10px;
+        margin-left: 10px;
+         font-weight:bold !important; 
+         font-size: 20px !important;
+    }
+    .font h2{
+           color: #0d165d;
+           margin-left: 10px;
+           font-weight: bold;
+    }
+    .font p{
+        margin-left: 10px;
+        color: #2a2d49;
+    }
+    
+    
+    .btn i{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #DF6951;
+        margin-left: 10px;
+        
+    }
+    .cad{
+        border-radius: 50px !important;
+        padding: 1px 1px 1px 1px;
+        
+    }
+
+    
+
+    
+    
+    .sell{
+    
+        border-radius: 50px !important;
+        padding: 2px 2px 2px;
+        margin: 2%;
+        
+       
+    
+    }
+    .easy h2{
+  
+        color: #181E4B;
+        font-weight: bold;
+    
+    }
+    
+    .easy-2 h6{
+    
+        color: #181E4B;
+        font-weight: bold;
+    }
+    
+    .bi-ui-checks-grid{
+        background-color: #F0BB1F;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-water{
+    
+        background-color: #F15A2B;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-car-front{
+        background-color: #006380;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+
+    .p{
+        margin-left: 20px !important;
+        
+    }
+    .p1{
+        margin-left: 10px !important;
+    }
+    .log{
+
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .eamil h1{
+          color: #5E6282;
+          font-weight: bold;
+    }
+    .eamil-2{
+    
+        width: 150px !important;
+        height: 20px !important;
+      
+    }
+    .main-eamil span{
+        background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+        color: white;
+        border-radius: 100%;
+        margin-left: 95%;
+    
+    }
+    .main-eamil{
+        background-color: #DFD7F9;
+        border-radius: 100px 10px 1px 10px;
+    }
+    .btn1{
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        padding: 12px;
+    }
+
+}
+
+@media only  screen and (min-width:768px) and (max-width:992px) {
+
+
+    
+
+    
+    .headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(48, 47, 47, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+
+    .font h1{
+        color: #d84224;
+        margin-top: 10px;
+        margin-left: 10px;
+         font-weight:bold !important; 
+         font-size: 20px !important;
+    }
+    .font h2{
+           color: #0d165d;
+           margin-left: 10px;
+           font-weight: bold;
+    }
+    .font p{
+        margin-left: 10px;
+        color: #2a2d49;
+    }
+    
+    
+    .btn i{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #DF6951;
+        margin-left: 10px;
+        
+    }
+    .cad{
+        border-radius: 50px !important;
+        padding: 1px 1px 1px 1px;
+        
+    }
+
+    
+
+    
+    
+    .sell{
+    
+        border-radius: 50px !important;
+        padding: 2px 2px 2px;
+        margin: 2%;
+        
+       
+    
+    }
+    .easy h2{
+  
+        color: #181E4B;
+        font-weight: bold;
+    
+    }
+    
+    .easy-2 h6{
+    
+        color: #181E4B;
+        font-weight: bold;
+    }
+    
+    .bi-ui-checks-grid{
+        background-color: #F0BB1F;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-water{
+    
+        background-color: #F15A2B;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-car-front{
+        background-color: #006380;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+
+    .p{
+        margin-left: 20px !important;
+        
+    }
+    .p1{
+        margin-left: 10px !important;
+    }
+    .log{
+
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .eamil h1{
+          color: #5E6282;
+          font-weight: bold;
+    }
+    .eamil-2{
+    
+        width: 150px !important;
+        height: 20px !important;
+      
+    }
+    .main-eamil span{
+        background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+        color: white;
+        border-radius: 100%;
+        margin-left: 95%;
+    
+    }
+    .main-eamil{
+        background-color: #DFD7F9;
+        border-radius: 100px 10px 1px 10px;
+    }
+    .btn1{
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        padding: 12px;
+    }
+
+}
+
+@media only  screen and (min-width:992px) and (max-width:1200px) {
+
+    
+
+    
+    .headr{
+    
+        background-image: url(./components/img/headr-bg.png);
+        background-color: rgba(48, 47, 47, 0.66) !important;
+        background-size: 100% 100% !important;
+
+    }
+
+    .font h1{
+        color: #d84224;
+        margin-top: 10px;
+        margin-left: 10px;
+         font-weight:bold !important; 
+         font-size: 20px !important;
+    }
+    .font h2{
+           color: #0d165d;
+           margin-left: 10px;
+           font-weight: bold;
+    }
+    .font p{
+        margin-left: 10px;
+        color: #2a2d49;
+    }
+    
+    
+    .btn i{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: #DF6951;
+        margin-left: 10px;
+        
+    }
+    .cad{
+        border-radius: 50px !important;
+        padding: 1px 1px 1px 1px;
+        
+    }
+
+    
+
+    
+    
+    .sell{
+    
+        border-radius: 50px !important;
+        padding: 2px 2px 2px;
+        margin: 2%;
+        
+       
+    
+    }
+    .easy h2{
+  
+        color: #181E4B;
+        font-weight: bold;
+    
+    }
+    
+    .easy-2 h6{
+    
+        color: #181E4B;
+        font-weight: bold;
+    }
+    
+    .bi-ui-checks-grid{
+        background-color: #F0BB1F;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-water{
+    
+        background-color: #F15A2B;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+    .bi-car-front{
+        background-color: #006380;
+        padding: 10px;
+        border-radius: 50px !important;
+    }
+
+    .p{
+        margin-left: 20px !important;
+        
+    }
+    .p1{
+        margin-left: 10px !important;
+    }
+    .log{
+
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .eamil h1{
+          color: #5E6282;
+          font-weight: bold;
+    }
+    .eamil-2{
+    
+        width: 150px !important;
+        height: 20px !important;
+      
+    }
+    .main-eamil span{
+        background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+        color: white;
+        border-radius: 100%;
+        margin-left: 95%;
+    
+    }
+    .main-eamil{
+        background-color: #DFD7F9;
+        border-radius: 100px 10px 1px 10px;
+    }
+    .btn1{
+        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+        padding: 12px;
+    }
+
+}
+
