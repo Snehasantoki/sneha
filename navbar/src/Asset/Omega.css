@@ -1,0 +1,92 @@
+.bg-gradiant{
+    background: linear-gradient(90deg,#4b9b7f,#0a3331);
+    border: none;
+    color: #fff!important;
+    margin: 1%;
+}
+.home1 .text h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    padding: 8px;
+    color: #255f51;
+}
+.home1 .text .h1 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section#countup {
+    background: #a7d4d2;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.ptb40 {
+    padding: 40px 0;
+}
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.section {
+    display: block;
+}
+
+.paddingcounter{
+    margin-left: -117px;
+    margin-right: -118px;
+}
+.form-control{
+    box-shadow: none!important;
+    color: #000;
+    font-size: 8px;
+    height: 52px;
+}
+.w-100 {
+    width: 100%!important;
+}
+.info-wrap {
+    border-radius: 5px;
+    margin-bottom: -5%;
+    margin-top: -10px;
+    width:800px;
+}
+.bg-primary {
+    background: linear-gradient(90deg,#4B9B7F,#0a3331);
+}
+.bg-primary {
+    background-color: #255F51;
+}
+.card-career{
+    border-color: #255F51;
+    border-radius: 20px;
+    box-shadow: 10px 10px 12px;
+}
+.p{
+    margin-top: 13px;
+}
+.iconn{
+    margin-top: 24px;
+    background: hsla(0,0%,100%,.1);
+    border-radius: 50%;
+    height: 43px;
+    width: 89px;
+}
+.icon{
+    margin-top: 24px;
+    background: hsla(0,0%,100%,.1);
+    border-radius: 50%;
+    height: 43px;
+    width: 49px;
+}
+.contain{
+    margin-left: 5px;
+
+}
+
+
+
+
