@@ -10,6 +10,7 @@ import Career from './component/Career';
 import Contact from './component/Contact';
 import { Routes, Route } from 'react-router-dom';
 import '../src/Asset/Omega.css';
+// import Example from './Example';
 
 
 
@@ -24,7 +25,8 @@ function App() {
           <Route path="Services" element={<Services/>}/>
           <Route path="Career" element={<Career/>}/>
           <Route path="Contact" element={<Contact/>}/>
-          
+          {/* <Route path="Example" element={<Example/>}/>
+           */}
     </Routes>
     <Footer/>
     
